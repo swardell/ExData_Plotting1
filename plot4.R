@@ -41,7 +41,7 @@ png("plot4.png",width=480, height = 480)
 par(mfrow = c(2,2), mar=c(4,4,2,1))
 
 # Graph 1
-plot(dateTime, global_active_power, type="l", xlab = "", ylab="Global Active Power (kilowatts)")
+plot(dateTime, global_active_power, type="l", xlab = "", ylab="Global Active Power")
 
 # Graph 2
 plot(dateTime, voltage, type="l", xlab = "datetime", ylab="Voltage")
